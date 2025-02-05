@@ -1,7 +1,5 @@
 # Abertay-App-Challenge-Website
-EH11 - Byte Club 
-
-3rd Year Group Project for CMP308/311
+EH11 - Byte Club , 3rd Year Group Project for CMP308/311
 
 Client : Xander Purvus 
 

@@ -6,9 +6,15 @@ EH11 - Byte Club
 Client : Xander Purvus 
 
 Team Members : 
+
 Snow White - Project Manager 
+
 Julie – Researcher, Coder 
-Harvey – Researcher, Designer, Coder 
+
+Harvey – Researcher, Designer, Coder
+
 Michael – Researcher, Lead Designer/Coder 
+
 Jack – Researcher, Lead coder 
+
 Josh – Researcher, coder 

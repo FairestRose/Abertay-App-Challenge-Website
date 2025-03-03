@@ -1,0 +1,179 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, snas-serif;
+  background-color:#F5F5F5 ;
+}
+
+
+/*.navbar a{
+  padding-right: 50px;
+}*/
+
+
+/* Background of nav */
+.navbar{
+  background-color: #B1045E;
+}
+
+
+
+/* nav bar text */
+.navText{
+  display: block;
+  padding: 8px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #000000;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+/* hover colour */
+.navbar a:hover{
+  background-color:white;
+  color:#000000
+}
+
+
+h3{
+  text-align:center;
+}
+
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 6px;
+    margin-right: 10px;
+    border: none;
+    font-size: 17px;
+    border-radius: 40px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} 
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table {
+  border-collapse: collapse;
+  padding: 25px;
+  font-size: 1em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  justify-content: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.reqCol{
+width:30%;
+}
+
+.metCol{
+width:60%;
+}
+
+.fileCol{
+width:10%;
+}
+
+
+td { 
+  padding: 5px;
+}
+
+thead tr {
+  background-color: #2864be;
+  color: #ffffff;
+  text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+ tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #d4d3d3d2;
+}

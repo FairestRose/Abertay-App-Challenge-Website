@@ -1,6 +1,7 @@
 # Abertay-App-Challenge-Website
 EH11 - Byte Club , 3rd Year Group Project for CMP308/311
-![image](https://github.com/user-attachments/assets/477e52d7-4b77-41da-95a8-28c28a0f5f98)
+![image](https://github.com/user-attachments/assets/97100057-ad9f-419b-9464-da8a439171cc)
+
 
 Creating a website that allows students to attempt quizzes and coding challenges with the goal of increasing student confidence and engagement with 
 learning.

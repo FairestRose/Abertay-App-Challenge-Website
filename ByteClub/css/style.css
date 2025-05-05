@@ -1,0 +1,337 @@
+/* Reset margins and padding for the body and set the font and background */
+body {
+  margin: 0; 
+  padding: 0; 
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: #F5F5F5; 
+}
+
+/* Remove the spin button from number inputs in WebKit browsers like Chrome and Safari */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+/* For Firefox, remove spin button in number inputs */
+input[type=number]{
+  -moz-appearance: textfield; 
+}
+
+/* Navbar background styling */
+.navbar {
+  background-color: #B1045E; 
+}
+
+/* Style for navbar text links */
+.navText {
+  display: block; 
+  padding: 8px; 
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none; 
+  color: #000000; 
+  border-radius: 20px; 
+  justify-content: center; 
+}
+
+/* Hover effect for navbar links */
+.navbar a:hover {
+  background-color: white; 
+  color: #000000; 
+}
+
+/* Centering h3 element */
+h3 {
+  text-align: center; 
+}
+
+/* Search input styling */
+.search {
+  position: relative; 
+}
+
+/* Search input styling */
+.search input[type="text"] {
+    padding: 6px; 
+    margin-right: 10px; 
+    border: none; 
+    font-size: 17px; 
+    border-radius: 40px; 
+}
+
+/* Center an element using margin */
+.center {
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 50%; 
+}
+
+/* Styling for text, select, and textarea inputs */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+
+/* Styling for email inputs */
+input[type=email], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+
+/* Same styling for password inputs as text and email inputs */
+input[type=password], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+
+/* Styling for the submit button */
+input[type=submit] {
+  background-color: #04AA6D; 
+  color: white; 
+  padding: 12px 20px; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+}
+
+/* Hover effect for the submit button */
+input[type=submit]:hover {
+  background-color: #45a049; 
+}
+
+/* Container styling for forms */
+.container {
+  border-radius: 5px; 
+  background-color: #f2f2f2; 
+  padding: 20px; 
+}
+
+/* Footer styling */
+.footer {
+  position: fixed; 
+  left: 0;
+  bottom: 0;
+  width: 100%; 
+  background-color: black; 
+  color: white; 
+  text-align: center; 
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse; 
+  padding: 25px; 
+  font-size: 1em; 
+  font-family: sans-serif; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+  justify-content: center; 
+}
+
+table, th, td {
+  border: 1px solid black; /* Black border for table and cells */
+}
+
+/* Column widths for table */
+.reqCol {
+  width: 30%; 
+}
+
+.metCol {
+  width: 60%; 
+}
+
+.fileCol {
+  width: 10%; 
+}
+
+/* Table cell padding */
+td { 
+  padding: 5px; 
+}
+
+/* Table header row styling */
+thead tr {
+  background-color: #2864be; 
+  color: #ffffff; 
+  text-align: left; 
+}
+
+/* Padding for table headers and cells */
+table th,
+table td {
+    padding: 12px 15px; 
+}
+
+/* Alternating row colors for table body */
+tbody tr {
+  border-bottom: 1px solid #dddddd; 
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #d4d3d3d2; 
+}
+
+/* Social media links container */
+.social-media-links {
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 20px; 
+}
+
+/* Styling for each social media link */
+.social-media-links a {
+    text-decoration: none; 
+    font-size: 30px; 
+    color: #333; 
+}
+
+/* Hover effect for social media links */
+.social-media-links a:hover {
+    color: #0077b5; 
+}
+
+/* Additional table styling */
+table {
+  width: 80%; 
+  margin: 20px auto; 
+  border-collapse: collapse; 
+}
+
+/* Padding and border for table cells */
+th, td {
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  text-align: left; 
+}
+
+/* Table header styling */
+th {
+  background-color: #B1045E; 
+  color: white; 
+}
+
+/* Even rows have a light background */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Styling for quiz question text */
+.question {
+  font-weight: bold; 
+  margin-bottom: 10px; 
+}
+
+/* Options container for quiz */
+.options {
+  margin-bottom: 20px; 
+}
+
+/* Styling for individual options */
+.option {
+  display: block; 
+  margin-bottom: 10px; 
+}
+
+/* Button styling for quiz */
+.button {
+  display: inline-block; 
+  padding: 10px 20px; 
+  background-color: #428bca; 
+  color: #fff; 
+  border: none; 
+  cursor: pointer; 
+  font-size: 16px; 
+  border-radius: 4px; 
+  transition: background-color 0.3s; 
+  margin-right: 10px; 
+}
+
+/* Hover effect for buttons */
+.button:hover {
+  background-color: #3071a9; 
+}
+
+/* Result styling */
+.result {
+  text-align: center; 
+  margin-top: 20px; 
+  font-weight: bold; 
+}
+
+/* Hide elements with the hide class */
+.hide {
+  display: none; 
+}
+
+/* Announcement box for game page */
+.announcement-box {
+  background-color: #e9ecef; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Game box container styling */
+.game-box {
+  background-color: #f8f9fa; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Centering container for game box */
+.center-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 70vh; 
+}
+
+/* Game challenge box styling */
+.game-box-challenge {
+  background-color: #f2f2f2; 
+  padding: 40px 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+
+/* Card styling with hover effect */
+.card {
+  border: none; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s ease-in-out; 
+}
+
+/* Hover effect to scale up card */
+.card:hover {
+  transform: scale(1.03); 
+}
+
+/* Game image styling inside the card */
+.games {
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 0 0 10px 10px; 
+}

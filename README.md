@@ -1,8 +1,12 @@
 # Abertay-App-Challenge-Website
 EH11 - Byte Club , 3rd Year Group Project for CMP308/311
+
 Presentation 25% - A 4.0
+
 White Paper - A 4.50 
+
 Overall Grade - A+ 4.50
+
 ![image](https://github.com/user-attachments/assets/97100057-ad9f-419b-9464-da8a439171cc)
 
 

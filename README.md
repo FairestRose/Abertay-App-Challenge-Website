@@ -1,5 +1,4 @@
 # Abertay-App-Challenge-Website
-EH11 - Byte Club , 3rd Year Group Project for CMP308/311
 
 ![image](https://github.com/user-attachments/assets/97100057-ad9f-419b-9464-da8a439171cc)
 

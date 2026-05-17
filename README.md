@@ -22,7 +22,7 @@ As the Project Manager for a team of six, my responsibilities included:
 * Overseeing the project lifecycle from initial client briefing to final delivery and presentation using dedicated project planning software.
 * Coordinating between researchers, designers, and lead coders to ensure development milestones were met on time.
 * Ensuring the final product successfully addressed all client requirements (gamification, admin tools, and data collection).
-* Leading the documentation process, resulting in an A (4.50) grade for our White Paper and an A (4.0) for our client presentation.
+* Leading the documentation process, resulting in an A+ (4.50) grade for our White Paper and an A (4.0) for our client presentation.
 
 ## 🛠️ Tech Stack
 
